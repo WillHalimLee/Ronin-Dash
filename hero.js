@@ -115,7 +115,6 @@ class Hero {
           }
         } else if (that.dir == 0 && that.box.right > tile.box.left) {
           canMoveRight = false;
-          this.x = this.x - 10;
         } else if (that.dir == 1 && that.box.left < tile.box.right) {
           canMoveLeft = false;
         }
